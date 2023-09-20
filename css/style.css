@@ -7,7 +7,7 @@
   #prod,
   .button-42 {
       width: 100%;
-      display: block;
+      display: -webkit-box;
   }
 }
 
@@ -23,12 +23,14 @@ body{
   font: normal 10pt Arial;
   margin: 0;
   text-align: center;
+  display: -webkit-box;
 }
 
 .button-41 p {
   font: normal 10pt Arial;
   margin: 0;
   text-align: center;
+  display: -webkit-box;
 }
 
 header{
