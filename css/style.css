@@ -1,12 +1,12 @@
 @media (max-width: 768px) {
   section {
-      width: 95%; /* Reduza a largura em dispositivos menores */
+      width: 80%;
   }
 
   .button-41,
   #prod,
   .button-42 {
-      width: 100%; /* Use a largura total em dispositivos menores */
+      width: 100%;
   }
 }
 
