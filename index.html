@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/pedido.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lista de compras</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Lista de compras</h1>
+    </header>
+    
+    <section>
+        <div class="add-s">
+          <input type="text" name="prod" id="prod" maxlength="25" placeholder="5x macarrão">
+          <button class="button-41" role="button" onclick="adicionar()">Adicionar</button>
+        </div>
+      
+        <div class="l-container">
+          <div class="l-list" id="lista"></div>
+          <button class="button-42" onclick="limparItens()">Limpar Itens</button>
+        </div>
+      </section>
+      
+
+    <footer>
+        <p>&copy; Ale Dias</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
