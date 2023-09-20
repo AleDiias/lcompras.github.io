@@ -18,6 +18,18 @@ body{
     padding: 0;
 }
 
+.button-42 p {
+  font: normal 10pt Arial;
+  margin: 0;
+  text-align: center;
+}
+
+.button-41 p {
+  font: normal 10pt Arial;
+  margin: 0;
+  text-align: center;
+}
+
 header{
 
     color: white;
@@ -65,13 +77,13 @@ footer{
   padding: 0 20px;
   pointer-events: auto;
   position: relative;
-  text-align: center;
+  /* text-align: center; */
   touch-action: manipulation;
   user-select: none;
   -webkit-user-select: none;
   vertical-align: top;
   white-space: nowrap;
-  width: 15%;
+  width: 30%;
   z-index: 9;
   border: 0;
 }
@@ -122,7 +134,7 @@ footer{
   -webkit-user-select: none;
   vertical-align: top;
   white-space: nowrap;
-  width: 15%;
+  width: 30%;
   z-index: 9;
   border: 0;
 }
