@@ -1,7 +1,21 @@
+@media (max-width: 768px) {
+  section {
+      width: 95%; /* Reduza a largura em dispositivos menores */
+  }
+
+  .button-41,
+  #prod,
+  .button-42 {
+      width: 100%; /* Use a largura total em dispositivos menores */
+  }
+}
+
 body{
 
     background: #01758a;
     font: normal 15pt Arial;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -14,7 +28,8 @@ section{
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 700px;
+    width: 90%;
+    max-width: 700px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
     
